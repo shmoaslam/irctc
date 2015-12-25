@@ -34,7 +34,12 @@ function onLoad(tab){
 			tab.attach({
 				contentScriptFile: [self.data.url("jquery.js"), self.data.url("journeyscript.js")]
 			});
-		break
+		break;
+		case 'Book Ticket - Passengers Information':
+			tab.attach({
+				contentScriptFile: [self.data.url("jquery.js"), self.data.url("passenger.js")]
+			});
+		break;
 		default:
 		break;
 	}
