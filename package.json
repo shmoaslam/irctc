@@ -1,0 +1,16 @@
+{
+  "title": "irctc",
+  "name": "browser-extension",
+  "version": "0.0.1",
+  "description": "irctc ticket automation",
+  "main": "index.js",
+  "author": "Shaikh Mohd Aslam",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
